@@ -36,20 +36,6 @@ A cada dia do **#7DaysOfCode**, uma nova funcionalidade crítica precisa entrar 
 
 ---
 
-## A Evolução dos Desafios (Dia a Dia)
-
-| Dia | O Desafio do Dia (Sua Missão no Projeto) | O que o seu sistema passa a fazer ao final do dia | Notebook do Desafio |
-| :--- | :--- | :--- | :--- |
-| **DIA 1** | **Desafio Dia 1: Criar o Cérebro e os Guardrails do Assistente** | O LLM deixa de ser genérico e assume a identidade da assistente *Clara* da NovaMart, dominando as regras básicas de negócio, formato padronizado de atendimento e blindagem contra *Prompt Injection*. | [`dia-01-fundamentos-e-prompt-engineering.ipynb`](notebooks/dia-01-fundamentos-e-prompt-engineering.ipynb) |
-| **DIA 2** | **Desafio Dia 2: Estruturar Chamados em JSON para o Sistema de Logística** | Além de conversar, o sistema passa a extrair automaticamente de mensagens livres um objeto validado (`JSON` / `Pydantic`) com número do pedido, intenção, categoria e elegibilidade para alimentar o ERP da loja. | [`dia-02-estruturando-dados-com-json-mode.ipynb`](notebooks/dia-02-estruturando-dados-com-json-mode.ipynb) |
-| **DIA 3** | **Desafio Dia 3: Conectar o LLM ao Banco de Pedidos com Tool Calling** | O assistente deixa de depender apenas do que o cliente diz e ganha ferramentas em Python (`@tool`) para consultar sozinho o status real do pedido, a data de entrega e abrir protocolos no sistema. | [`dia-03-tool-calling-basico.ipynb`](notebooks/dia-03-tool-calling-basico.ipynb) |
-| **DIA 4** | **Desafio Dia 4: Implementar o Ciclo ReAct (Raciocínio e Ação)** | Transformamos o LLM em um **Agente ReAct** capaz de pensar passo a passo: ele analisa o pedido do cliente, decide qual ferramenta chamar, observa o resultado do banco de dados e toma a decisão final. | [`dia-04-o-ciclo-react-e-raciocinio.ipynb`](notebooks/dia-04-o-ciclo-react-e-raciocinio.ipynb) |
-| **DIA 5** | **Desafio Dia 5: Dar Memória de Contexto ao Agente de Atendimento** | O agente ganha memória conversacional (`RunnableWithMessageHistory`) para conduzir um atendimento fluido de várias mensagens sem esquecer o nome do cliente, o código `#NVM-XXXX` ou o que já foi verificado. | [`dia-05-memoria-e-contexto-conversacional.ipynb`](notebooks/dia-05-memoria-e-contexto-conversacional.ipynb) |
-| **DIA 6** | **Desafio Dia 6: Construir o Motor RAG sobre o Manual de Políticas** | Conectamos o agente ao documento oficial `data/politicas_troca.txt` via ChromaDB e Embeddings para que ele consulte cláusulas específicas, exceções e prazos jurídicos sem alucinar. | [`dia-06-rag-consultor-de-politicas.ipynb`](notebooks/dia-06-rag-consultor-de-politicas.ipynb) |
-| **DIA 7** | **Desafio Dia 7: Integrar Tudo no Agente Final da NovaMart** | O grande fechamento! Unificamos o **System Prompt (Dia 1) + Estruturação (Dia 2) + Tools de Pedidos (Dia 3) + Motor ReAct (Dia 4) + Memória (Dia 5) + RAG de Políticas (Dia 6)** em um único Agente Conversacional completo. | [`dia-07-projeto-final-assistente-integrado.ipynb`](notebooks/dia-07-projeto-final-assistente-integrado.ipynb) |
-
----
-
 ## Diretriz de Complexidade e Abordagem
 
 - **Nível:** Iniciante a Intermediário.
