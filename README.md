@@ -65,35 +65,6 @@ A cada dia do **#7DaysOfCode**, uma nova funcionalidade crítica precisa entrar 
 
 ---
 
-## Estrutura do Repositório
-
-```text
-alur-7-days-of-code-agentic-ai/
-├── README.md
-├── requirements.txt
-├── emails-desafios/                                       # Textos dos e-mails diários (Enunciados + Dados de Apoio)
-│   ├── email-dia-01.md
-│   ├── email-dia-02.md
-│   ├── email-dia-03.md
-│   ├── email-dia-04.md
-│   ├── email-dia-05.md
-│   ├── email-dia-06.md
-│   └── email-dia-07.md
-├── notebooks/                                             # Gabaritos Oficiais (liberados no dia seguinte)
-│   ├── dia-01-fundamentos-e-prompt-engineering.ipynb
-│   ├── dia-02-estruturando-dados-com-json-mode.ipynb
-│   ├── dia-03-tool-calling-basico.ipynb
-│   ├── dia-04-o-ciclo-react-e-raciocinio.ipynb
-│   ├── dia-05-memoria-e-contexto-conversacional.ipynb
-│   ├── dia-06-rag-consultor-de-politicas.ipynb
-│   └── dia-07-projeto-final-assistente-integrado.ipynb
-└── data/                                                  # Arquivos de apoio do projeto
-    ├── pedidos_novamart.json
-    └── politicas_troca.txt
-```
-
----
-
 ## Como Executar os Desafios Diários
 
 1. Abra o **Google Colab** ([colab.research.google.com](https://colab.research.google.com/)).
