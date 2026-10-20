@@ -1,0 +1,80 @@
+{
+  "#NVM-4821": {
+    "codigo_pedido": "#NVM-4821",
+    "cliente": "Juliana Costa",
+    "nivel_fidelidade": "VIP Prime",
+    "produto": "Tênis de Corrida UltraBoost Rosa (Tam 38)",
+    "categoria": "moda_calcados_acessorios",
+    "status_entrega": "ENTREGUE",
+    "data_entrega": "04/09/2026",
+    "dias_desde_entrega": 45,
+    "valor_pago": 499.90,
+    "forma_pagamento": "PIX",
+    "primeira_troca_disponivel": true
+  },
+  "#NVM-3091": {
+    "codigo_pedido": "#NVM-3091",
+    "cliente": "Fernanda Lima",
+    "nivel_fidelidade": "Padrão",
+    "produto": "Bota de Couro Cano Curto Preta (Tam 38)",
+    "categoria": "moda_calcados_acessorios",
+    "status_entrega": "ENTREGUE",
+    "data_entrega": "07/10/2026",
+    "dias_desde_entrega": 12,
+    "valor_pago": 359.00,
+    "forma_pagamento": "Cartão de Crédito",
+    "primeira_troca_disponivel": true
+  },
+  "#NVM-5502": {
+    "codigo_pedido": "#NVM-5502",
+    "cliente": "Carlos Eduardo",
+    "nivel_fidelidade": "Padrão",
+    "produto": "Jaqueta Corta-Vento Impermeável (Tam M)",
+    "categoria": "moda_calcados_acessorios",
+    "status_entrega": "ENTREGUE",
+    "data_entrega": "07/09/2026",
+    "dias_desde_entrega": 42,
+    "valor_pago": 289.90,
+    "forma_pagamento": "Boleto",
+    "primeira_troca_disponivel": true
+  },
+  "#NVM-8840": {
+    "codigo_pedido": "#NVM-8840",
+    "cliente": "Ricardo Almeida",
+    "nivel_fidelidade": "Padrão",
+    "produto": "Cafeteira Expresso Barista Pro 15 Bar",
+    "categoria": "eletronicos_eletroportateis",
+    "status_entrega": "ENTREGUE",
+    "data_entrega": "24/09/2026",
+    "dias_desde_entrega": 25,
+    "valor_pago": 649.00,
+    "forma_pagamento": "PIX",
+    "primeira_troca_disponivel": true
+  },
+  "#NVM-7710": {
+    "codigo_pedido": "#NVM-7710",
+    "cliente": "Marcos Vinícius",
+    "nivel_fidelidade": "Padrão",
+    "produto": "Perfume Eau de Parfum Intense 100ml",
+    "categoria": "perfumaria_cosmeticos",
+    "status_entrega": "ENTREGUE",
+    "data_entrega": "17/10/2026",
+    "dias_desde_entrega": 2,
+    "valor_pago": 420.00,
+    "forma_pagamento": "Cartão de Crédito",
+    "primeira_troca_disponivel": false
+  },
+  "#NVM-1029": {
+    "codigo_pedido": "#NVM-1029",
+    "cliente": "Beatriz Rocha",
+    "nivel_fidelidade": "VIP Prime",
+    "produto": "Fone Bluetooth Noise Cancelling NovaSound",
+    "categoria": "eletronicos_eletroportateis",
+    "status_entrega": "EM_TRANSITO",
+    "previsao_entrega": "22/10/2026",
+    "dias_desde_entrega": null,
+    "valor_pago": 899.00,
+    "forma_pagamento": "PIX",
+    "primeira_troca_disponivel": true
+  }
+}

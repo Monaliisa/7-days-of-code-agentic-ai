@@ -1,0 +1,11 @@
+# Arquivos internos da trilha e e-mails dos desafios
+emails-desafios/
+briefing-trilha.md
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
